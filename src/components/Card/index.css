@@ -1,0 +1,9 @@
+.card-wrapper {
+  min-height: 150px;
+  background: rgba(0, 0, 0, 0.24);
+}
+
+.card-body.number {
+  font-size: 3rem;
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+body {
+  background: #EFEFE7;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* utils */
+.align-items-center {
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.fill-relative-parent {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.full-width {
+  width: 100%;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.list-style-none {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.mr-sm {
+  margin-right: 0.8rem;
+}
+.no-margin {
+  margin: 0;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.text-capitalize {
+  text-transform: capi;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-left {
+  text-align: left;
+}

@@ -1,0 +1,58 @@
+.container-shadow {
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.24),
+    0 0 15px rgba(0, 0, 0, 0.36);
+}
+.container-dark-bg {
+  background: rgba(0, 0, 0, 0.24);
+}
+.rounded-corners {
+  border-radius: 0.4rem;
+}
+.damage-type-list li {
+  background: transparent;
+  border: 3px solid rgba(0, 0, 0, 0.24);
+  height: 40px;
+  padding: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.damage-type-list li.active {
+  background: rgba(0, 0, 0, 0.24);
+}
+.damage-type-list li:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.24);
+  transition: all 0.4s;
+}
+.damage-type-list li:last-child {
+  margin-right: 0 !important;
+}
+.homepage-wrapper,
+.listview-wrapper {
+  max-width: 1080px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+.rdd-table {
+  color: #fff !important;
+}
+.rdd-table tbody td {
+  vertical-align: middle;
+}
+.rdd-table tbody tr:nth-child(odd) td {
+  color: #fff !important;
+}
+.rdd-table tbody tr:nth-child(even) td {
+  background: rgba(0, 0, 0, 0.24) !important;
+}
+.rdd-table .thumbnail {
+  height: 90px;
+  width: 90px;
+}
+.rdd-table .thumbnail img {
+  object-fit: cover;
+}
